@@ -32,7 +32,7 @@ These are not the same as *Device Auth* credentials previously recommended for [
 
 ## Known Limitations
 
-The integration only has access to files created by this integration.
+The integration can only access backup files that it creates in the Home Assistant folder. It cannot access or modify any other files in your Google Drive.
 
 ## Removing the integration
 
