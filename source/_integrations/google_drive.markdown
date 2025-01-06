@@ -38,8 +38,8 @@ These are not the same as *Device Auth* credentials previously recommended for [
 
 - The integration can only access files that it creates in the Home Assistant folder. It cannot access or modify any other files in your Google Drive.
 - If you remove the integration, the Home Assistant folder in Google Drive is not automatically deleted. You have to manually delete it in Google Drive.
-- Every time you add the integration, a new Home Assistant folder is created. This is intentional to allow multiple Home Assistant instaces to upload to the same Google Drive account.
+- Every time you add the integration, a new Home Assistant folder is created. This is intentional to allow multiple Home Assistant instances to upload to the same Google Drive account.
 
 ## Troubleshooting
 
-If you have an error with your credentials you can delete them in the [Application Credentials](/integrations/application_credentials/) user interface.
+If you have an error with your credentials, you can delete them in the [Application Credentials](/integrations/application_credentials/) user interface.
