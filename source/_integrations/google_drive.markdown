@@ -30,13 +30,15 @@ These are not the same as *Device Auth* credentials previously recommended for [
 
 {% include integrations/google_oauth.md %}
 
-## Known Limitations
-
-The integration can only access backup files that it creates in the Home Assistant folder. It cannot access or modify any other files in your Google Drive.
-
 ## Removing the integration
 
 {% include integrations/remove_device_service.md %}
+
+## Known Limitations
+
+- The integration can only access files that it creates in the Home Assistant folder. It cannot access or modify any other files in your Google Drive.
+- If you remove the integration, the Home Assistant folder in Google Drive is not automatically deleted. You have to manually delete it in Google Drive.
+- Every time you add the integration, a new Home Assistant folder is created. This is intentional to allow multiple Home Assistant instaces to upload to the same Google Drive account.
 
 ## Troubleshooting
 
