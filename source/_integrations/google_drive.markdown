@@ -15,7 +15,7 @@ api: Google Drive API
 api_link: https://console.developers.google.com/start/api?id=drive
 ---
 
-This integration allows you to connect your [Google Drive](https://drive.google.com) with Home Assistant Backups. When you set up a config entry, your drive will have a new folder called Home Assistant where all the backups will be stored. You can then rename this to whatever you like.
+This integration allows you to connect your [Google Drive](https://drive.google.com) with Home Assistant Backups. When you set up this integration, your Google Drive will have a new folder called Home Assistant where all the backups will be stored. You can rename this folder to whatever you like in Google Drive at any point of time. If you delete the folder, it will automatically be re-created as long as you have the integration enabled.
 
 ## Prerequisites
 
@@ -38,7 +38,6 @@ These are not the same as *Device Auth* credentials previously recommended for [
 
 - The integration can only access files that it creates in the Home Assistant folder. It cannot access or modify any other files in your Google Drive.
 - If you remove the integration, the Home Assistant folder in Google Drive is not automatically deleted. You have to manually delete it in Google Drive.
-- Every time you add the integration, a new Home Assistant folder is created. This is intentional to allow multiple Home Assistant instances to upload to the same Google Drive account.
 
 ## Troubleshooting
 
